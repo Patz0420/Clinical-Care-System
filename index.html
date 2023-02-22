@@ -12,33 +12,39 @@
             box-sizing: border-box;
         }
         body{
-            background-color: #321eea;
+            background-color: #f9f9f9;
+        }
+        .container img{
+            width: 250px;
+            align-items: center;
         }
         .container form{
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin-top: 300px;   
+            margin-top: 0px;   
         } 
         .container form input{
             width: 30%;
             padding: 7px;
             color: gold;
             border-radius: 10px;
-            border: none;
+            border: 2px solid black;
+
         }
         .container form label{
             font-size: 20px;
-            color: #fff;
+            color: #ff0000;
             margin: 10px;
         }
         .container button{
             font-size: 20px;
             padding: 5px;
             border-radius: 10px;
+            background-color: #f9f9f9;
         }
         .container button:hover{
-            background-color: gold;
+            background-color: #ff0000a4;
         }
 
 
@@ -46,7 +52,9 @@
 </head>
 <body>
     <div class="container">
+       
         <form action="patient.html">
+            <img src="logo.webp" alt="">
             <input type="text" name="uname" value="" id="uname" placeholder="User Name">
             <label for="uname" name="uname" id="uname">User Name</label>
             <input type="password" name="pass" value="" id="pass" placeholder="Password">
