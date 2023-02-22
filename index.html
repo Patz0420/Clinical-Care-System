@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #321eea;
+        }
+        .container form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 300px;   
+        } 
+        .container form input{
+            width: 30%;
+            padding: 7px;
+            color: gold;
+            border-radius: 10px;
+            border: none;
+        }
+        .container form label{
+            font-size: 20px;
+            color: #fff;
+            margin: 10px;
+        }
+        .container button{
+            font-size: 20px;
+            padding: 5px;
+            border-radius: 10px;
+        }
+        .container button:hover{
+            background-color: gold;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="patient.html">
+            <input type="text" name="uname" value="" id="uname" placeholder="User Name">
+            <label for="uname" name="uname" id="uname">User Name</label>
+            <input type="password" name="pass" value="" id="pass" placeholder="Password">
+            <label for="pass" name="pass" id="pass">Password</label>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
